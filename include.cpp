@@ -28,10 +28,7 @@ private:
 
 public:
 
-
-    
-
-    void adicionarProduto(const Produto& p) {
+void adicionarProduto(const Produto& p) {
         produtos.push_back(p);
         categorias.insert(p.categoria);
         contagemPorCategoria[p.categoria]++;

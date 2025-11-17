@@ -4,10 +4,6 @@
 
 using namespace std;
 
-
-
-
-
 int main() {
 
     Inventario inv;
